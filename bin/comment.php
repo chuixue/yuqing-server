@@ -20,7 +20,7 @@
 	if($key=="comment")
 	{
 		$id="cdqq-216886";
-		$sql="select * from emotion where eventid='$id' and 'emationword' <> ".'""'." limit 50";
+		$sql="select * from emotion where eventid='$id' and 'emationword' <> ".'""'." limit 10";
 		//$sql="select * from emotion where 'emationword' <>\"\"";
 		//$sql="select * from exampaper where 1";
 		echo $sql;//'emationword'
