@@ -11,7 +11,7 @@
     	<dbhost>119.6.203.96</dbhost>
         <dbuser>root</dbuser>
         <dbpasswd>cinscins</dbpasswd>
-        <dbname>yuqing</dbname>
+        <dbname>yuqing1</dbname>
 		<dbport>3306</dbport>
     </mysql>
 </database>
