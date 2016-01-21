@@ -24,6 +24,7 @@
 		//$sql="select * from emotion where 'emationword' <>\"\"";
 		//$sql="select * from exampaper where 1";
 		echo $sql;//'emationword'
+		$sql="select * from emotion where eventid='$id' limit 10";
 		$data=getJsonBySql($sql);
 		
 	}
